@@ -3,4 +3,10 @@
   <groupId>com.deesite</groupId>
   <artifactId>DeeHelpersJava</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
+  <properties>
+    <maven.compiler.source>13.0.2</maven.compiler.source>
+    <maven.compiler.target>13.0.2</maven.compiler.target>
+  </properties>
+
 </project>
