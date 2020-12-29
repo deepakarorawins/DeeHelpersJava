@@ -6,8 +6,7 @@ public class ShellCommandInJava {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
 		
-		boolean isWindows = System.getProperty("os.name")
-				  .toLowerCase().startsWith("windows");
+		boolean isWindows = System.getProperty("os.name").toLowerCase().startsWith("windows");
 		
 		ProcessBuilder builder = new ProcessBuilder();
 		if (isWindows) {
