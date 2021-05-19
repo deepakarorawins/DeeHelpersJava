@@ -89,7 +89,12 @@ public class LocalDate_Calculations {
 		System.out.println("String Date: "+ date);
 		System.out.println("Local Date: "+LocalDate.now().plusMonths(3));
 		System.out.println(LocalDate.parse(date));
-	}
+		System.out.println("DeeNew Test: "+LocalDate.parse("2021"+"-"+String.format("%02d",Integer.parseInt("4"))+"-"+"1"));
+		//LocalDate.parse(Data.get("startYear")+"-"+String.format("%02d",Integer.parseInt(Data.get("startMonth").toString()))+"-"+String.format("%02d",Integer.parseInt(Data.get("startDay").toString())))
+		
+		String actualText = "12:46 AM, Apr 1, 2021, Collapsed";
+		System.out.println(actualText = actualText.substring(actualText.indexOf(",")+2, actualText.lastIndexOf(",")));
+}
 	
 	
 
